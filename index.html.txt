@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Abel Atnafu — Developer | Incoming VMI Cadet</title>
+  <meta name="description" content="Self-taught developer from Ethiopia. I build responsive websites and analyze data with Python (pandas). Incoming VMI Cadet (Class of 2030)." />
+  <meta name="theme-color" content="#070A14" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg">
+    <div class="grid"></div>
+    <div class="orb o1"></div>
+    <div class="orb o2"></div>
+    <div class="orb o3"></div>
+  </div>
+
+  <header class="nav-wrap">
+    <nav class="nav">
+      <a class="logo" href="#top">Abel<span class="dot">.</span></a>
+      <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" data-nav>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="nav-cta"><a class="btn btn-primary" href="resume.pdf" target="_blank" rel="noreferrer">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top" class="container">
+    <section class="hero">
+      <div class="badge"><span class="pulse"></span>Open to opportunities</div>
+      <h1>I build <span class="grad">clean web experiences</span><br />and explore <span class="grad2">data with Python</span>.</h1>
+      <p class="lead">
+        I’m <strong>Abel Atnafu</strong>, a self-taught developer from <strong>Forest Hill, Ethiopia</strong>.
+        I build responsive websites with <strong>HTML/CSS/JavaScript</strong> and analyze data with <strong>Python (pandas)</strong>.
+        Incoming <strong>VMI Cadet (Class of 2030)</strong>.
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#projects">View Projects <span class="arr">→</span></a>
+        <a class="btn btn-ghost" href="#contact">Get in Touch</a>
+        <a class="btn btn-outline" href="resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+      </div>
+    </section>
+
+    <section id="about" class="sec reveal">
+      <div class="kicker">01 — About</div>
+      <h2>Builder mindset, disciplined execution.</h2>
+      <p>I like turning ideas into clean, functional software with practical impact.</p>
+    </section>
+
+    <section id="skills" class="sec reveal">
+      <div class="kicker">02 — Skills</div>
+      <h2>Tools I use.</h2>
+      <div class="skills-grid">
+        <div class="card">
+          <div class="bar" data-pct="90"><div class="bar-top"><span>HTML & CSS</span><span>90%</span></div><div class="track"><div class="fill"></div></div></div>
+          <div class="bar" data-pct="80"><div class="bar-top"><span>JavaScript</span><span>80%</span></div><div class="track"><div class="fill"></div></div></div>
+          <div class="bar" data-pct="70"><div class="bar-top"><span>Python</span><span>70%</span></div><div class="track"><div class="fill"></div></div></div>
+          <div class="bar" data-pct="65"><div class="bar-top"><span>Git & GitHub</span><span>65%</span></div><div class="track"><div class="fill"></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="sec reveal">
+      <div class="kicker">03 — Projects</div>
+      <h2>Work I’m proud to show.</h2>
+      <div class="proj-grid">
+        <article class="proj">
+          <h3>Personal Portfolio Website</h3>
+          <p>Responsive portfolio built with vanilla HTML, CSS, and JavaScript.</p>
+          <div class="links">
+            <a class="lnk" href="https://abel-atnafu.github.io/" target="_blank" rel="noreferrer">Live</a>
+            <a class="lnk" href="https://github.com/abel-atnafu" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+        <article class="proj">
+          <h3>EV Population Data Analysis</h3>
+          <p>Dataset wrangling, grouping, and trend analysis using Python + pandas.</p>
+          <div class="links">
+            <a class="lnk" href="https://github.com/abel-atnafu" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="journey" class="sec reveal">
+      <div class="kicker">04 — Journey</div>
+      <h2>From Ethiopia to VMI.</h2>
+      <p>Self-taught development path leading into VMI Class of 2030.</p>
+    </section>
+
+    <section id="contact" class="sec reveal">
+      <div class="kicker">05 — Contact</div>
+      <h2>Let’s connect.</h2>
+      <div class="contact">
+        <a class="c-card" href="mailto:abelatnafu.g@gmail.com">Email</a>
+        <a class="c-card" href="https://github.com/abel-atnafu" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="c-card" href="https://linkedin.com/in/abel-atnafu-2a5918328" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="c-card" href="resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="yr"></span> Abel Atnafu</div>
+      <a class="top" href="#top">Back to top ↑</a>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
